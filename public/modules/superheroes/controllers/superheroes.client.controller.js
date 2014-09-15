@@ -9,7 +9,8 @@ angular.module('superheroes').controller('SuperheroesController', ['$scope', '$s
 		$scope.create = function() {
 			// Create new Superhero object
 			var superhero = new Superheroes ({
-				name: this.name
+				name: this.name,
+				superpower: this.superpower
 			});
 
 			// Redirect after save
@@ -57,7 +58,7 @@ angular.module('superheroes').controller('SuperheroesController', ['$scope', '$s
 
 		// Find existing Superhero
 		$scope.findOne = function() {
-			$scope.superhero = Superheroes.get({ 
+			$scope.superhero = Superheroes.get({
 				superheroId: $stateParams.superheroId
 			});
 		};

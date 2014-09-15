@@ -5,6 +5,10 @@ angular.module('superheroes').config(['$stateProvider',
 	function($stateProvider) {
 		// Superheroes state routing
 		$stateProvider.
+		state('team', {
+			url: '/team',
+			templateUrl: 'modules/superheroes/views/team.client.view.html'
+		}).
 		state('listSuperheroes', {
 			url: '/superheroes',
 			templateUrl: 'modules/superheroes/views/list-superheroes.client.view.html'

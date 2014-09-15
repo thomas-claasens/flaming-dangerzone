@@ -16,6 +16,11 @@ var SuperheroSchema = new Schema({
 		required: 'Please fill Superhero name',
 		trim: true
 	},
+	superpower: {
+		type: String,
+		default: '',
+		trim: true
+	},
 	created: {
 		type: Date,
 		default: Date.now
