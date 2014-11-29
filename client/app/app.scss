@@ -81,7 +81,7 @@ a {
 }
 .page {
 	margin: 0 auto;
-	width: 1200px;
+	width: 900px;
 	text-align: left;
 	padding: 0;
 	background-color: #514E5C;
@@ -133,8 +133,8 @@ h2 {
 }
 .rightColumn {
 	width: 630px;
-	margin-left: 220px;
-	padding: 10px;
+	margin-left: 181px;
+	padding: 0px;
 	img {
 		padding: 0 10px 0 0;
 	}
@@ -268,14 +268,14 @@ dd {
 	}
 	a {
 		background: #A5A0B0 url(/assets/images/menu_item.png) center left no-repeat;
-		display: block;
+		display: inline;
 		float: left;
 		margin: 0;
 		padding: 5px 12px 5px 30px;
 		text-decoration: none;
 		color: $black;
 		font-weight: bold;
-		width: 100px;
+		width: 150px;
 		border-right: 1px solid #C0C0C0;
 		&:hover {
 			background: #B5B0C0 url(/assets/images/menu_item_hover.png) center left no-repeat;
