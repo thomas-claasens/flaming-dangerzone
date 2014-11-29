@@ -5,6 +5,46 @@ angular.module('shopApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+      'title': 'Orders',
+      'link': '/order',
+      'isAdmin': true
+    }, {
+      'title': 'Stock',
+      'link': '/stock',
+      'isAdmin': true
+    }, {
+      'title': 'Users',
+      'link': '/admin',
+      'isAdmin': true
+    }, {
+      'title': 'Categories',
+      'link': '/category',
+      'isAdmin': true
+    }, {
+      'title': 'Postage Bands',
+      'link': '/postage',
+      'isAdmin': true
+    }, {
+      'title': 'Postage Zones',
+      'link': '/postzone',
+      'isAdmin': true
+    }, {
+      'title': 'Reports',
+      'link': '/report',
+      'isAdmin': true
+    }, {
+      'title': 'Reviews',
+      'link': '/review',
+      'isAdmin': true
+    }, {
+      'title': 'Mailing List',
+      'link': '/mailinglist',
+      'isAdmin': true
+    }, {
+      'title': 'Hear from us?',
+      'link': '/referer',
+      'isAdmin': true
     }];
 
     $scope.isCollapsed = true;
