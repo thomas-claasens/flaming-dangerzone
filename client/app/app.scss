@@ -57,6 +57,7 @@ $font_3: arial;
 body {
 	font-family: $font_0, $font_1, $font_2;
 	min-width: 900px;
+	height: 600px;
 	text-align: center;
 	font-size: 9pt;
 	background-image: url(/assets/images/wallpaper.jpg);
@@ -82,6 +83,7 @@ a {
 .page {
 	margin: 0 auto;
 	width: 900px;
+	min-height: 600px;
 	text-align: left;
 	padding: 0;
 	background-color: #514E5C;
